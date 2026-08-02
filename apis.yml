@@ -1,7 +1,19 @@
 aid: xiaoyi
 name: xiaoyi
-description: xiaoyi is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Xiaoyi Technology (小蚁科技), operated by Shanghai Yunyi Zhilian Technology
+  (上海云蚁智联) and best known for its YI-brand cameras, is a Shanghai-based
+  smart-imaging company that emerged from the Xiaomi ecosystem. It builds
+  action cameras, the M1 mirrorless camera, smart home/security cameras, dash
+  cams and in-car rearview systems, VR cameras, and handheld gimbals, and now
+  positions itself around computer vision, edge intelligence, and edge
+  computing solutions for smart mobility, smart home, smart retail, smart
+  parks, and smart communities, selling through JD and Tmall storefronts.
+  Surfaced as a Qiming Venture Partners portfolio company. No public developer
+  API surface was found during enrichment - the developer subdomain
+  (dev.xiaoyi.com) returns 502, api.xiaoyi.com serves only a placeholder page,
+  and no API documentation, OpenAPI specs, official GitHub organization, or
+  first-party registry packages were located.
 url: https://raw.githubusercontent.com/api-evangelist/xiaoyi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,30 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://xiaoyi-publicfiles.oss-cn-shanghai.aliyuncs.com/index/img/ydilogo.png
 tags:
 - Company
+- Computer Vision
+- Edge Computing
+- Cameras
+- Smart Home
+- Consumer Electronics
+- Internet of Things
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://xiaoyi.com
+  url: https://www.xiaoyi.com
+- type: Support
+  url: https://www.xiaoyi.com/Contact_Us.html
+- type: TermsOfService
+  url: https://www.xiaoyi.com/fuwu.html
+- type: DomainSecurity
+  url: security/xiaoyi-domain-security.yml
+- type: LLMsTxt
+  url: llms/xiaoyi-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
