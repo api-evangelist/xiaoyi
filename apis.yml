@@ -49,7 +49,7 @@ modified: '2026-07-21'
 image: https://xiaoyi-publicfiles.oss-cn-shanghai.aliyuncs.com/index/img/ydilogo.png
 tags:
 - Company
-- Computer-Vision
+- Computer Vision
 - Edge Computing
 - Camera
 - Smart Home
@@ -65,6 +65,7 @@ tags_raw:
 - Consumer Electronics
 - Internet of Things
 - China
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
